@@ -1,14 +1,17 @@
+
+/* UNIVERSAL SELECTOR */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* BODY SELECTOR */
 body {
     background-color: #d9dcd6;
 }
 
-/* Header */
+/* HEADER */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,15 +19,18 @@ header {
     color: #ffffff;
 }
 
+/* HEADER H1 SELECTOR */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* SEO CLASS SELECTOR WITHIN H1 HEADER */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* NAVIGATION STYLE */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,6 +43,7 @@ header nav ul {
     list-style-type: none;
 }
 
+/* NAV LIST STYLES */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -92,18 +99,19 @@ main {
     background-color: #2589bd;
 }
 
+/* BENEFIT CLASS */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* H3 SELECTOR WITHIN BENEFIT CLASS */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* IMG SELECTOR WITHIN BENEFIT CLASS */
 .benefit img {
     display: block;
     margin: 10px auto;
@@ -111,7 +119,7 @@ main {
 }
 
 
-/* SERVICES OFFERED */
+/* OFFERINGS */
 .offerings {
     margin-bottom: 20px;
     padding: 50px;
@@ -121,10 +129,12 @@ main {
     color: #ffffff;
 }
 
+/* OFFERINGS IMG  */
 .offerings img {
     max-height: 200px;
 }
 
+/* OFFERINGS H2  */
 .offerings h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -138,10 +148,12 @@ footer {
     text-align: center;
 }
 
+/* FOOTER H4 STYLE */
 footer h4 {
     font-size: 20px;
 }
 
+/* FOOTER H5 STYLE */
 footer h5 {
     font-size:14px;
 }
